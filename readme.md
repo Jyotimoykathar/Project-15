@@ -24,8 +24,8 @@ This is the 15th project among the 15 HTML and CSS Ineuron-projects.
 
 ### Links
 
-- Code File URL: [github.com](https://github.com/Jyotimoykathar/Project-02)
-- Live Site URL: [netlify.app](https://project-02-restaurant.netlify.app/)
+- Code File URL: [github.com](https://github.com/Jyotimoykathar/Project-15)
+- Live Site URL: [netlify.app](https://project-15-product-design.netlify.app/)
 
 ## My process
 
