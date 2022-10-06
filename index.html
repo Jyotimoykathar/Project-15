@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Design Landing</title>
+
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- ROBOTO GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LOCAL CSS FILE -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION START -->
+    <header class="header-section grid grid--2-cols">
+      <div class="logo-box">
+        <img src="img/Logo.svg" class="logo-img" alt="red logo image" />
+      </div>
+      <!--  nav section -->
+      <nav>
+        <ul class="nav-list flex-row">
+          <li>
+            <a href="#" class="nav-link">HOME <span> &#8964;</span></a>
+          </li>
+          <li><a href="#" class="nav-link">PROJECT</a></li>
+          <li><a href="#" class="nav-link">ABOUT</a></li>
+          <li><a href="#" class="nav-link">CONTACT</a></li>
+          <li>
+            <a href="#" class="nav-link">OTHER PAGE <span> &#8964;</span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+      </button>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <main>
+      <!-- HERO SECTION BEGIN-->
+      <section class="hero-section">
+        <div class="hero grid grid--2-cols">
+          <div class="left-image">
+            <img
+              src="img/left-img.png"
+              class="hero-img"
+              alt="left hero image"
+            />
+          </div>
+          <div class="right-hero-description flex-col">
+            <h3 class="heading-tertiary">Hello I'm Arthur</h3>
+            <h1 class="heading-primary">Visual Designer</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              numquam, incidunt atque nulla id architecto, repudiandae expedita
+              dolor saepe voluptates maiores, hic sit aut!
+            </p>
+            <div>
+              <button class="btn-red">About Me</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HERO SECTION END -->
+
+      <!-- CARD-EXPERIENCED SECTION START -->
+      <section class="card-experienced-section">
+        <div class="cards grid grid--3-cols container">
+          <div class="card flex-col">
+            <img
+              src="img/pen and diary.svg"
+              class="card-icon"
+              alt="pen and diary icon"
+            />
+            <h3 class="heading-tertiary">UI Design</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <div>
+              <a href="#" class="more-link">Know more <span> &rarr;</span></a>
+            </div>
+          </div>
+          <div class="card flex-col">
+            <img src="img/notepad.svg" class="card-icon" alt="notepad icon" />
+            <h3 class="heading-tertiary">Product Design</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <a href="#" class="more-link white-color"
+              >Know more <span> &rarr;</span></a
+            >
+          </div>
+          <div class="card flex-col">
+            <img src="img/ruler.svg" class="card-icon" alt="ruler icon" />
+            <h3 class="heading-tertiary">Branding</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <a href="#" class="more-link">Know more <span> &rarr;</span></a>
+          </div>
+        </div>
+        <div class="experience grid grid--3-cols container">
+          <div class="twelve">
+            <span class="large"> 12</span> Years Experience
+          </div>
+          <div><span> 60+ </span> clients</div>
+          <div><span> 122+ </span> Completed projects</div>
+          <div><span> 08 </span> years experienced</div>
+          <div><span>10</span> Achievments</div>
+        </div>
+      </section>
+      <!-- CARD-EXPERIENCED SECTION END -->
+
+      <!-- FEATURED PROJECTS -->
+      <section class="featured-section container">
+        <div class="featured-header grid grid--2-cols">
+          <div class="featured-header--left">
+            <h2 class="heading-secondary">FEATURED PROJECTS</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="featured-header-right">
+            <button class="btn-red">view all</button>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="project-items">
+            <div>
+              <img src="img/art.jpg" alt="art image" />
+            </div>
+            <p class="subheading">The Vintage</p>
+            <a href="#" class="more-link">Know more <span> &rarr;</span></a>
+          </div>
+          <div class="project-items">
+            <div>
+              <img src="img/burger.jpg" alt="berger image" />
+            </div>
+            <p class="subheading">Foodasa</p>
+            <a href="#" class="more-link">Know more <span> &rarr;</span></a>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="project-items">
+            <div>
+              <img src="img/home-decor.jpg" alt="home decor items" />
+            </div>
+            <p class="subheading">Marco Accent</p>
+            <a href="#" class="more-link">Know more <span> &rarr;</span></a>
+          </div>
+          <div class="project-items">
+            <div>
+              <img src="img/music-festival.jpg" alt="music festival" />
+            </div>
+            <p class="subheading">Mozaik</p>
+            <a href="#" class="more-link">Know more <span> &rarr;</span></a>
+          </div>
+        </div>
+      </section>
+      <!-- FEATURED PROJECTS END -->
+
+      <!-- CONTACT SECTION -->
+      <section class="contact-section container">
+        <div class="grid grid--3-cols">
+          <div class="contact-text-box">
+            <h2 class="heading-secondary">
+              Let's work together on your next project
+            </h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+              voluptatem dolores dicta repellat voluptas exercitationem!
+            </p>
+          </div>
+          <div class="contact-button">
+            <button class="btn-red">Contact</button>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION END -->
+    </main>
+
+    <!-- FOOTER SECTION START -->
+    <footer class="footer-section">
+      <div class="footer-nav-box container">
+        <ul class="footer-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="grid grid--3-cols">
+        <div>
+          <img src="img/Logo.svg" alt="bottom nav logo" />
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook-f icons"></i>
+          <i class="fa-brands fa-twitter icons"></i>
+          <i class="fa-brands fa-youtube icons"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ION ICON SECTION -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
